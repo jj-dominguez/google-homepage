@@ -7,6 +7,8 @@ body {
 
 a {
   color: #000;
+  text-decoration: none;
+
 }
 
 #search-area {
@@ -41,6 +43,16 @@ a {
   text-align: center;
 }
 
+.button {
+ color: #757575;
+ background:#dcdcdc;
+ width: 120px;
+ height: 40px;
+ border: none;
+ margin: 0;
+ padding: 0;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -64,7 +76,7 @@ li {
 }
 
 #navbar {
-  padding: 10px;
+  padding: 20px;
 }
 
 #footer {
@@ -94,5 +106,5 @@ li {
 
  #footer ul {
     margin:0;
-    padding:0;
+    padding:0px 15px;
   }
